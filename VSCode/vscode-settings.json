@@ -18,9 +18,6 @@
     "json"
   ],
   "files.eol": "\n",
-  "sqlite.setupDatabase": {
-  
-  },
   "[html]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -40,5 +37,24 @@
   "[python]": {
       "editor.tabSize": 4,
       "editor.wordBasedSuggestions": false
-  }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\kozmi\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\kozmi\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+  },
+  "files.associations": {
+    "*.json": "json"
+  },
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "Jetbrains Dark Theme",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.confirmSync": false,
+  "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+  "editor.formatOnSave": true,
+  "php.format.codeStyle": "PSR-12",
+  "php.suggest.basic": true,
+  "php.validate.enable": true,
+  "eslint.codeActionsOnSave.rules": null
 }
