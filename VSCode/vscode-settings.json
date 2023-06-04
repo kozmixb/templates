@@ -49,6 +49,7 @@
   "git.ignoreMissingGitWarning": true,
   "html.format.extraLiners": "",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
   "php.completion.autoimport-docblock": "default",
   "php.format.codeStyle": "PSR-12",
   "php.suggest.basic": true,
