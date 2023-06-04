@@ -1,9 +1,4 @@
 {
-  "editor.scrollBeyondLastLine": false,
-  "workbench.startupEditor": "none",
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true,
-  "eslint.validate": ["javascript"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -17,44 +12,49 @@
     "markdown",
     "json"
   ],
-  "files.eol": "\n",
   "[html]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-      "editor.tabSize": 2
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.tabSize": 2
   },
   "[json]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-      "editor.tabSize": 2
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.tabSize": 2
   },
   "[typescript]": {
-      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-      "editor.tabSize": 2
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.tabSize": 2
   },
   "[python]": {
-      "editor.tabSize": 4,
-      "editor.wordBasedSuggestions": false
+    "editor.tabSize": 4,
+    "editor.wordBasedSuggestions": false
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "vs-kubernetes": {
-    "vscode-kubernetes.helm-path.windows": "C:\\Users\\kozmi\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\kozmi\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-  },
-  "files.associations": {
-    "*.json": "json"
-  },
-  "git.enableSmartCommit": true,
-  "workbench.colorTheme": "Jetbrains Dark Theme",
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme",
   "diffEditor.ignoreTrimWhitespace": false,
-  "git.confirmSync": false,
-  "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
   "editor.formatOnSave": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.wordBasedSuggestions": false,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript"
+  ],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreMissingGitWarning": true,
+  "html.format.extraLiners": "",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "php.completion.autoimport-docblock": "default",
   "php.format.codeStyle": "PSR-12",
   "php.suggest.basic": true,
   "php.validate.enable": true,
-  "eslint.codeActionsOnSave.rules": null
+  "problems.decorations.enabled": false,
+  "workbench.colorTheme": "Jetbrains Dark Theme",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme",
+  "workbench.startupEditor": "none"
 }
