@@ -18,5 +18,4 @@ jobs:
         uses: php-actions/phpstan@v3
         with:
           path: app/ tests/
-          command: --version
-          level: 5
+          level: 6
