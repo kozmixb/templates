@@ -1,6 +1,6 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "eslint.probe": [
     "javascript",
@@ -21,7 +21,7 @@
     "editor.tabSize": 2
   },
   "[json]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "vscode.json-language-features",
     "editor.tabSize": 2
   },
   "[typescript]": {
@@ -30,12 +30,20 @@
   },
   "[python]": {
     "editor.tabSize": 4,
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.tabSize": 2, // optionally
+  },
+  "[terraform-vars]": {
+    "editor.tabSize": 2 // optionally
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.formatOnSave": true,
   "editor.scrollBeyondLastLine": false,
-  "editor.wordBasedSuggestions": false,
+  "editor.wordBasedSuggestions": "off",
   "eslint.alwaysShowStatus": true,
   "eslint.codeActionsOnSave.rules": null,
   "eslint.format.enable": true,
@@ -52,10 +60,17 @@
   "markdown-preview-enhanced.previewTheme": "atom-dark.css",
   "php.completion.autoimport-docblock": "default",
   "php.format.codeStyle": "PSR-12",
-  "php.suggest.basic": true,
-  "php.validate.enable": true,
   "problems.decorations.enabled": false,
   "workbench.colorTheme": "Jetbrains Dark Theme",
   "workbench.iconTheme": "vscode-jetbrains-icon-theme",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "[php]": {},
+  "php.executables": {
+    "v8.1": "/usr/local/bin/php"
+  },
+  "gitlens.rebaseEditor.ordering": "asc",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "workbench.settings.applyToAllProfiles": []
 }
